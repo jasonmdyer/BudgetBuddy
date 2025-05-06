@@ -1,4 +1,4 @@
-##BudgetBuddy by Jason Dyer
+# BudgetBuddy by Jason Dyer
 
 BudgetBuddy is a Python Tkinter GUI application designed for young adults (ages 18–30) to manage their monthly income and expenses. It provides a user-friendly interface to add transactions, view financial summaries, and track remaining balances. 
 
