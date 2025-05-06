@@ -1,4 +1,6 @@
-Budget Buddy is a Python Tkinter GUI application designed for young adults (ages 18–30) to manage their monthly income and expenses. It provides a user-friendly interface to add transactions, view financial summaries, and track remaining balances. 
+#BudgetBuddy by Jason Dyer
+
+BudgetBuddy is a Python Tkinter GUI application designed for young adults (ages 18–30) to manage their monthly income and expenses. It provides a user-friendly interface to add transactions, view financial summaries, and track remaining balances. 
 
 Key features include:
 A main dashboard displaying total income, expenses, and balance.
@@ -8,7 +10,7 @@ Robust input validation to ensure accurate data entry.
 Modular code structure with clear navigation and secure coding practices.
 
 Setup:
-To run Budget Buddy, follow these steps:
+To run BudgetBuddy, follow these steps:
 Ensure Python 3.x is installed on your system (includes Tkinter by default).
 Download or clone the project files to a local directory.
 Open a terminal or command prompt and navigate to the project directory:
