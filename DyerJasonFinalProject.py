@@ -1,11 +1,11 @@
 # DyerJasonFinalProject.py
-# Purpose: Budget Buddy application for managing income and expenses using a Tkinter GUI
+# Purpose: BudgetBuddy application for managing income and expenses using a Tkinter GUI
 
 import tkinter as tk
 from tkinter import messagebox
 
 # Validation Module
-# Purpose: Handles input validation for Budget Buddy
+# Purpose: Handles input validation for BudgetBuddy
 def validate_input(amount, category):
     # Purpose: Validate transaction inputs, return error message if invalid
     if not amount:
@@ -21,7 +21,7 @@ def validate_input(amount, category):
     return None  # No errors
 
 # Logic Module
-# Purpose: Manages transaction storage and calculations for Budget Buddy
+# Purpose: Manages transaction storage and calculations for BudgetBuddy
 class BudgetLogic:
     def __init__(self):
         # Purpose: Initialize an empty list to store transactions
@@ -48,12 +48,12 @@ class BudgetLogic:
         return income, expenses
 
 # GUI Module
-# Purpose: Defines the Tkinter GUI for Budget Buddy, including main and secondary windows
+# Purpose: Defines the Tkinter GUI for BudgetBuddy, including main and secondary windows
 class BudgetBuddyGUI:
     def __init__(self, root):
         # Purpose: Initialize the main window and set up the application
         self.root = root  # Main Tkinter window
-        self.root.title("Budget Buddy")  # Window title
+        self.root.title("BudgetBuddy")  # Window title
         self.root.geometry("400x300")  # Window size
         self.logic = BudgetLogic()  # Initialize logic for calculations
         self.create_main_window()  # Create the main dashboard
@@ -159,7 +159,7 @@ class BudgetBuddyGUI:
             self.root.quit()
 
 # Main Module
-# Purpose: Entry point for the Budget Buddy application
+# Purpose: Entry point for the BudgetBuddy application
 def main():
     root = tk.Tk()
     app = BudgetBuddyGUI(root)
