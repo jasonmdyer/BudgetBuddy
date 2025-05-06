@@ -155,7 +155,7 @@ class BudgetBuddyGUI:
 
     def exit_app(self):
         # Purpose: Safely exit the application
-        if messagebox.askokcancel("Exit", "Do you want to exit Budget Buddy?"):
+        if messagebox.askokcancel("Exit", "Do you want to exit BudgetBuddy?"):
             self.root.quit()
 
 # Main Module
